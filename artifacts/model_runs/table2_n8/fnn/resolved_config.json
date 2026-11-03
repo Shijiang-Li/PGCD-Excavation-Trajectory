@@ -1,0 +1,21 @@
+{
+  "model": "fnn",
+  "dataset": {
+    "n_idx": 100,
+    "pso_pop": 40,
+    "pso_iters": 15
+  },
+  "split": {
+    "ood": "soil",
+    "n_fam": 48,
+    "n_ood": 60,
+    "subset_policy": "legacy-prefix"
+  },
+  "hyperparameters": {
+    "steps": 4000,
+    "lr": 0.001,
+    "log_every": 500,
+    "target": "best feasible tau per training condition"
+  },
+  "hyperparameter_source": "Defaults follow the PGCD paper reproduction code: Table 2 candidate count n=8, diffusion/surrogate/CVAE 5000 steps, FNN/PINN 4000 steps, eta=0.12. Quick mode intentionally reduces these values for script validation only."
+}

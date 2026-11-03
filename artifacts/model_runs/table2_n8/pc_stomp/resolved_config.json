@@ -1,0 +1,14 @@
+{
+  "model": "pc_stomp",
+  "training": "none",
+  "initializer": "FNN",
+  "seeds": [
+    0,
+    1
+  ],
+  "required_checkpoints": {
+    "0": "E:\\LSJ\\Pycode2\\excavation-trajectory-planning_new\\artifacts\\model_runs\\table2_n8\\fnn\\checkpoints\\seed_0.pt",
+    "1": "E:\\LSJ\\Pycode2\\excavation-trajectory-planning_new\\artifacts\\model_runs\\table2_n8\\fnn\\checkpoints\\seed_1.pt"
+  },
+  "note": "Run train_fnn.py before test_pc_stomp.py. PC-STOMP itself is a test-time physical refinement stage."
+}

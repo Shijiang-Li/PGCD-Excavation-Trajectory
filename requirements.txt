@@ -1,0 +1,9 @@
+numpy==1.26.4
+scipy>=1.10
+pandas>=2.2
+matplotlib>=3.8,<3.10
+scikit-learn>=1.3
+torch>=2.0,<2.9
+cryptography>=41  # decrypts the confidential machine parameters
+# optional: faster point-cloud I/O for the field-experiment figures
+open3d>=0.17

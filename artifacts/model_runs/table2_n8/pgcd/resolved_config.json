@@ -1,0 +1,24 @@
+{
+  "model": "pgcd",
+  "dataset": {
+    "n_idx": 100,
+    "pso_pop": 40,
+    "pso_iters": 15
+  },
+  "split": {
+    "ood": "soil",
+    "n_fam": 48,
+    "n_ood": 60,
+    "subset_policy": "legacy-prefix"
+  },
+  "hyperparameters": {
+    "diffusion_steps": 5000,
+    "surrogate_steps": 5000,
+    "diffusion_lr": 0.0008,
+    "surrogate_lr": 0.001,
+    "bc_temp": 0.3,
+    "eta": 0.12,
+    "log_every": 500
+  },
+  "hyperparameter_source": "Defaults follow the PGCD paper reproduction code: Table 2 candidate count n=8, diffusion/surrogate/CVAE 5000 steps, FNN/PINN 4000 steps, eta=0.12. Quick mode intentionally reduces these values for script validation only."
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+
+# regenerated outputs
+paper_reproduction_results/figures*/
+paper_reproduction_results/logs/
+field_experiment/pgcd_current_material_outputs/*.png
+field_experiment/pgcd_current_material_outputs/*.svg
+field_experiment/pgcd_current_material_outputs/*.pdf
+field_experiment/pgcd_current_material_outputs/*.tiff
+field_experiment/pgcd_current_material_outputs/*.npy
+field_experiment/pgcd_current_material_outputs/*_bucket_angle.csv
+field_experiment/pgcd_current_material_outputs/*_trajectory_yz.csv
+paper_reproduction_results/split_results_manifest.json

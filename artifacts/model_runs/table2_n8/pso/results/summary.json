@@ -1,0 +1,27 @@
+{
+  "method": "PSO",
+  "rows": [
+    {
+      "test_set": "familiar",
+      "method": "PSO",
+      "succ": 1.0,
+      "best_J": 0.4027515410240123,
+      "feas_rate": 1.0,
+      "viol_rate": 0.0,
+      "gap": 0.0,
+      "div": 0.0,
+      "lat": 3.5707398172010456
+    },
+    {
+      "test_set": "unfamiliar",
+      "method": "PSO",
+      "succ": 1.0,
+      "best_J": 0.4137613774809587,
+      "feas_rate": 1.0,
+      "viol_rate": 0.0,
+      "gap": 0.0,
+      "div": 0.0,
+      "lat": 3.618910859931599
+    }
+  ]
+}

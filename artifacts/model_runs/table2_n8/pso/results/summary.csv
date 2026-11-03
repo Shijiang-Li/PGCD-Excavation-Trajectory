@@ -1,0 +1,3 @@
+test_set,method,succ,best_J,feas_rate,viol_rate,gap,div,lat
+familiar,PSO,1.0,0.4027515410240123,1.0,0.0,0.0,0.0,3.5707398172010456
+unfamiliar,PSO,1.0,0.4137613774809587,1.0,0.0,0.0,0.0,3.618910859931599
